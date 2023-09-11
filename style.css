@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    height: 80vh;
+}
+
+.heading {
+    font-size: 80px;
+}
+
+.time {
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+.search {
+    width: 550px;
+    height: 150px;
+}
+
+.a {
+    border-radius: 20px;
+    width: 450px;
+    height: 40px;
+    border: solid black;
+}
+
+.b {
+    border-radius: 50%;
+    border: solid black;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 70px;
+}
+
+@media (max-width: 680px) {
+    .main {
+        top: 50px;
+    }
+    .heading {
+        font-size: 80px;
+    }
+
+    .a {
+        margin-left: 25px;
+    }
+}
