@@ -26,12 +26,12 @@
     border-radius: 20px;
     width: 450px;
     height: 40px;
-    border: solid black;
+    border: 1px solid black;
 }
 
 .b {
     border-radius: 50%;
-    border: solid black;
+    border: 1px solid black;
     height: 45px;
     width: 45px;
     background-color: white;
